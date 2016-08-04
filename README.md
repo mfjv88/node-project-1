@@ -22,8 +22,11 @@ The `bac` (Blood Alcohol Content) command should do the following:
  *Refer to https://nodejs.org/docs/latest/api/process.html#process_process_argv for help with command line arguments*
 
 
- Challenge:
+Challenge:
 
  Make the console color coded:
   `help` command should be yellow output
   `bac` command should be `green` if I can drive or `red` if I cannot
+
+  Also after you start typing the first input for the `bac` command to clear
+  everything away from the terminal.
