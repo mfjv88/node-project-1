@@ -1,3 +1,5 @@
+# Download this repo
+
 # Project 1
 
 ### Command Line Application
@@ -30,3 +32,8 @@ Challenge:
 
   Also after you start typing the first input for the `bac` command to clear
   everything away from the terminal.
+
+
+# Delivery
+
+Push all the code into your own project-1 repository and send a link to the instructor for review.
