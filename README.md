@@ -6,6 +6,8 @@
 
 Build a command line application that has two commands named `help` and `bac`.
 
+Example: `$node index.js help`
+
 The `help` command should give you a paragraph of what the application does and how to use it.
 
 The `bac` (Blood Alcohol Content) command should do the following:
