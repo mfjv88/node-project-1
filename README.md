@@ -1,12 +1,8 @@
-# Download this repo
-
 # Project 1
 
 ### Command Line Application
 
 Build a command line application that has two commands named `help` and `bac`.
-
-Example: `$node index.js help`
 
 The `help` command should give you a paragraph of what the application does and how to use it.
 
@@ -34,8 +30,3 @@ Challenge:
 
   Also after you start typing the first input for the `bac` command to clear
   everything away from the terminal.
-
-
-# Delivery
-
-Push all the code into your own project-1 repository and send a link to the instructor for review.
