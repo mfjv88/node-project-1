@@ -4,6 +4,10 @@ var prompt = require("prompt-sync")();
 
 var argument = process.argv[2];
 
+console.reset = function () {
+  return process.stdout.write('\033c');
+};
+
 if (argument === "help") {
     help();
 } else if (argument === "bac") {
@@ -13,6 +17,7 @@ if (argument === "help") {
     var beers = Number(prompt("How many beers have you had? "));
     var lastBeer = Number(prompt("How many hours ago was your last beer? "));
     bac(sex, beers, weight, lastBeer);
+    setTimeout(console.reset, 3000);
 } else {
     console.log("This is not an accepted command!");
 }
