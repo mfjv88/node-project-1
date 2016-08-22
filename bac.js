@@ -4,11 +4,11 @@ var checkSex = require("./checksex");
 var checkBac = require("./checkbac");
 
 function bac(sex, beers, weight, lastBeer) {
-    checkSex(sex);
+    newSex = checkSex(sex);
     beers = beers * 12 * 0.514;
-    var bac = (beers / (weight * sex));
+    var bac = (beers / (weight * newSex));
     var result = bac - (lastBeer * 0.015);
-    checkBac(result);
+    return checkBac(result);
 }
 
 module.exports = bac;

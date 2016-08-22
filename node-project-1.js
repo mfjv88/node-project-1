@@ -9,15 +9,17 @@ console.reset = function () {
 };
 
 if (argument === "help") {
-    help();
+    console.log(help());
 } else if (argument === "bac") {
+    console.reset();
     var name = prompt("What's your name? ");
     var sex = Number(prompt("Write 1 if Male or 2 if Female: "));
     var weight = Number(prompt("What is your weight in pounds? "));
     var beers = Number(prompt("How many beers have you had? "));
     var lastBeer = Number(prompt("How many hours ago was your last beer? "));
-    bac(sex, beers, weight, lastBeer);
-    setTimeout(console.reset, 3000);
+    var result = bac(sex, beers, weight, lastBeer);
+    console.log(result);
+    // setTimeout(console.reset, 3000);
 } else {
     console.log("This is not an accepted command!");
 }
